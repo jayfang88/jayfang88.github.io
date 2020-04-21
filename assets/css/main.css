@@ -2903,7 +2903,7 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 		width: 100%;
-		margin: 0 0 3em 0;
+		margin: 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
@@ -2915,29 +2915,10 @@ input, select, textarea {
 			-ms-flex: 1;
 			flex: 1;
 			padding: 1.5em;
-			color: #ffffff;
+			width: 25%;
+			/* color: black; */
 			text-align: center;
 		}
-
-			.statistics li.style1 {
-				background-color: #efa8b0;
-			}
-
-			.statistics li.style2 {
-				background-color: #c79cc8;
-			}
-
-			.statistics li.style3 {
-				background-color: #a89cc8;
-			}
-
-			.statistics li.style4 {
-				background-color: #9bb2e1;
-			}
-
-			.statistics li.style5 {
-				background-color: #8cc9f0;
-			}
 
 			.statistics li strong, .statistics li b {
 				display: block;
@@ -2975,16 +2956,21 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 800px) {
 
 			.statistics {
-				display: block;
-				width: 20em;
+				display: flex;
+				flex-wrap: wrap;
+				width: 40em;
 				max-width: 100%;
 				margin: 0 auto 2em auto;
 			}
+			
+				.statistics li {
+					min-width: 50%;
+				}
 
-				.statistics li:first-child {
+				/* .statistics li:first-child {
 					border-bottom-left-radius: 0;
 					border-top-right-radius: 8px;
 				}
@@ -2992,7 +2978,7 @@ input, select, textarea {
 				.statistics li:last-child {
 					border-top-right-radius: 0;
 					border-bottom-left-radius: 8px;
-				}
+				} */
 
 				.statistics li .icon:before {
 					font-size: 3.75rem;
@@ -3002,6 +2988,15 @@ input, select, textarea {
 					font-size: 2.5em;
 				}
 
+		}
+
+		.statistics img {
+			max-width: 7em;
+		}
+		.statistics p {
+			font-size: 1em;
+			font-weight: 600;
+			margin: 0;
 		}
 
 /* Spotlight */
