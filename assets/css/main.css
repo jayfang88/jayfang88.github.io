@@ -101,14 +101,14 @@ input, select, textarea {
 	body {
 		/* background-color: #935d8c; */
 		background-color: #3b3b3b;
-		/* background-image: url("images/overlay.png"), -moz-linear-gradient(40deg, #3b3b3b 20%, #3181a7 80%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(40deg, #3b3b3b 20%, #3181a7 80%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(40deg, #3b3b3b 20%, #3181a7 80%);
-		background-image: url("images/overlay.png"), linear-gradient(40deg, #3b3b3b 20%, #3181a7 80%); */
-		background-image: url("images/overlay.png"), -moz-linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(40deg, #0b4058 33.33333%, #ffcaca 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(40deg, #0b4058 33.33333%, #ffcaca 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(40deg, #0b4058 33.33333%, #ffcaca 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		background-image: url("images/overlay.png"), linear-gradient(40deg, #0b4058 33.33333%, #ffcaca 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
-		background-image: url("images/overlay.png"), linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
+		background-image: url("images/overlay.png"), linear-gradient(40deg, #ffcaca 20%, #0b4058 80%); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2916,7 +2916,6 @@ input, select, textarea {
 			flex: 1;
 			padding: 1.5em;
 			width: 25%;
-			/* color: black; */
 			text-align: center;
 		}
 
