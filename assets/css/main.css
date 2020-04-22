@@ -3107,14 +3107,14 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			margin: 0 0 0.25em 0;
+			margin: 0 0 0 0;
 			font-weight: 600;
 			letter-spacing: 0.5px;
 		}
 
-		/* #header h1 span {
-			font-weight: 200;
-		} */
+		#header h2 {
+			margin: 0 0 1em 0;
+		}
 
 		#header p {
 			font-size: 1.25em;
