@@ -2885,10 +2885,11 @@ input, select, textarea {
 		}
 		
 		.features li a {
+			/* filter: brightness(95%); */
 			border: none;
 		}
 		.features li a:hover {
-			filter: brightness(80%);
+			filter: brightness(60%);
 		}
 
 		.features li p {
