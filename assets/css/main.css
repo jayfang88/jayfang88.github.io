@@ -101,10 +101,10 @@ input, select, textarea {
 	body {
 		/* background-color: #935d8c; */
 		background-color: #3b3b3b;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(35deg, #0b4058 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(35deg, #0b4058 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(35deg, #0b4058 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
-		background-image: url("images/overlay.png"), linear-gradient(35deg, #0b4058 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(35deg, #0c384f 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(35deg, #0c384f 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(35deg, #0c384f 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
+		background-image: url("images/overlay.png"), linear-gradient(35deg, #0c384f 33.33333%, #ffd9d9 33.33333% 66.6666%, #3b3b3b 66.6666%);
 		/* background-image: url("images/overlay.png"), -moz-linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(40deg, #ffcaca 20%, #0b4058 80%);
@@ -3172,10 +3172,10 @@ input, select, textarea {
 			}
 
 			#header.alt .logo {
-				-moz-transition: opacity 1.25s ease, -moz-transform 0.5s ease;
-				-webkit-transition: opacity 1.25s ease, -webkit-transform 0.5s ease;
-				-ms-transition: opacity 1.25s ease, -ms-transform 0.5s ease;
-				transition: opacity 1.25s ease, transform 0.5s ease;
+				-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease;
+				-webkit-transition: opacity 1.5s ease, -webkit-transform 0.5s ease;
+				-ms-transition: opacity 1.5s ease, -ms-transform 0.5s ease;
+				transition: opacity 1.5s ease, transform 0.5s ease;
 				-moz-transition-delay: 0s;
 				-webkit-transition-delay: 0s;
 				-ms-transition-delay: 0s;
@@ -3199,6 +3199,10 @@ input, select, textarea {
 				#header.alt {
 					padding: 6em 4em 3em 4em ;
 				}
+			
+					#header.alt .logo img {
+						max-width: 12%;
+					}
 
 		}
 
@@ -3211,6 +3215,10 @@ input, select, textarea {
 				#header.alt {
 					padding: 5em 3em 2em 3em ;
 				}
+
+					#header.alt .logo img {
+						max-width: 13%;
+					}
 
 		}
 
@@ -3236,6 +3244,9 @@ input, select, textarea {
 					#header.alt h1 {
 						font-size: 2.5em;
 					}
+					#header.alt .logo img {
+						max-width: 15%;
+					}
 
 		}
 
@@ -3249,6 +3260,10 @@ input, select, textarea {
 					padding: 4em 1.5em 1em 1.5em ;
 				}
 
+					#header.alt .logo img {
+						max-width: 20%;
+					}
+
 		}
 
 		@media screen and (max-width: 360px) {
@@ -3261,6 +3276,10 @@ input, select, textarea {
 					padding: 3.5em 1em 0.5em 1em ;
 				}
 
+					#header.alt .logo img {
+						max-width: 20%;
+					}
+
 		}
 
 		body.is-preload #header.alt > * {
@@ -3268,10 +3287,10 @@ input, select, textarea {
 		}
 
 		body.is-preload #header.alt .logo {
-			-moz-transform: scale(0.8) rotate(-30deg);
-			-webkit-transform: scale(0.8) rotate(-30deg);
-			-ms-transform: scale(0.8) rotate(-30deg);
-			transform: scale(0.8) rotate(-30deg);
+			-moz-transform: scale(0.6) rotate(-30deg);
+			-webkit-transform: scale(0.6) rotate(-30deg);
+			-ms-transform: scale(0.6) rotate(-30deg);
+			transform: scale(0.6) rotate(-30deg);
 		}
 
 /* Nav */
